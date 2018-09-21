@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Response</title>
+</head>
+<body>
+{% if msg %}
+    {{msg}}: <a href="{{url}}" target="_blank">{{url}}</a>
+{% else %}
+    <a href="{{url}}" target="_blank">{{url}}</a>
+{% endif %}
+</body>
+</html>

@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='ShortenedURL',
             fields=[
-                ('original', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, primary_key=True, serialize=False, to='url_shorten_form.OriginalURL')),
+                ('original', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, primary_key=True, serialize=False, to='url_shorten.OriginalURL')),
                 ('hash', models.CharField(max_length=15)),
             ],
         ),

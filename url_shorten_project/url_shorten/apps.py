@@ -5,4 +5,4 @@ from django.apps import AppConfig
 
 
 class UrlShortenFormConfig(AppConfig):
-    name = 'url_shorten_form'
+    name = 'url_shorten'
